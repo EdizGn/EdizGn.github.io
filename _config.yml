@@ -4,16 +4,17 @@ description: Bilgisayar Mühendisliği öğrencisi Ediz Gün'ün kişisel sayfas
 author: Ediz Gün
 theme: jekyll-theme-minimal
 
-# Sosyal medya bağlantıları (isteğe bağlı)
+# Sosyal medya bağlantıları
 twitter_username: edizgun
 github_username: EdizGn
 linkedin_username: edizgun
 
 # Sayfa başlığı favicon gibi başlıklar için
-logo: /assets/images/avatar.png  # Eğer bir görsel eklersen
 show_downloads: false
 
 # Navigasyon menüsü
+# …diğer ayarlarınız…
+
 navigation:
   - title: Anasayfa
     url: /
@@ -22,7 +23,13 @@ navigation:
   - title: Projeler
     url: /projects
 
-# Markdown seçenekleri
 markdown: kramdown
 kramdown:
   input: GFM
+
+  navigation:
+  - title: Anasayfa
+    url: /
+  - title: Hakkımda
+    url: /about
+

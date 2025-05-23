@@ -1,1 +1,28 @@
 theme: jekyll-theme-minimal
+title: Ediz Gün'ün Web Sitesi
+description: Bilgisayar Mühendisliği öğrencisi Ediz Gün'ün kişisel sayfası.
+author: Ediz Gün
+theme: jekyll-theme-minimal
+
+# Sosyal medya bağlantıları (isteğe bağlı)
+twitter_username: edizgun
+github_username: EdizGn
+linkedin_username: edizgun
+
+# Sayfa başlığı favicon gibi başlıklar için
+logo: /assets/images/avatar.png  # Eğer bir görsel eklersen
+show_downloads: false
+
+# Navigasyon menüsü
+navigation:
+  - title: Anasayfa
+    url: /
+  - title: Hakkımda
+    url: /about
+  - title: Projeler
+    url: /projects
+
+# Markdown seçenekleri
+markdown: kramdown
+kramdown:
+  input: GFM
